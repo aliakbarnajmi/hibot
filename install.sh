@@ -88,7 +88,7 @@ fi
 echo -e "${GREEN}Step 1: Cloning the repository and changing directory...${RESET}"
 
 repository_url="https://github.com/aliakbarnajmi/hibot.git"
-install_dir="/root/hibot"
+install_dir="/opt/hibot"
 
 branch="main"
 
