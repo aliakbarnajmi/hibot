@@ -59,7 +59,7 @@ function reinstall_bot() {
       rm -rf /hibot
 
       # Run the installation script
-      bash -c "$(curl -Lfo- https://raw.githubusercontent.com/aliakbarnajmi/hibot/refs/heads/master/install.sh)"
+      bash -c "$(curl -Lfo- https://raw.githubusercontent.com/aliakbarnajmi/hibot/refs/heads/main/install.sh)"
 
       display_message "${GREEN}Bot has been reinstalled.${RESET}"
       ;;
