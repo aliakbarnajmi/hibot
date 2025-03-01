@@ -36,7 +36,7 @@ Hidy Bot is a Telegram bot that allows you to manage your Hiddify panel directly
 To install the bot, run the following command:
 
 ```bash
-sudo bash -c "$(curl -Lfo- https://raw.githubusercontent.com/aliakbarnajmi/hibot/refs/heads/master/install.sh)"
+sudo bash -c "$(curl -Lfo- https://raw.githubusercontent.com/aliakbarnajmi/hibot/refs/heads/main/install.sh)"
 ```
 <br>
 
@@ -60,11 +60,11 @@ Now you can use the bot in Telegram by sending the `/start` command.
 ## Commands
 - ### Update bot
 ```bash
-cd /opt/Hiddify-Telegram-Bot/ && curl -fsSL -o /opt/Hiddify-Telegram-Bot/update.sh https://raw.githubusercontent.com/aliakbarnajmi/hibot/refs/heads/master/update.sh && chmod +x /opt/Hiddify-Telegram-Bot/update.sh && bash /opt/Hiddify-Telegram-Bot/update.sh
+cd /hibot/ && curl -fsSL -o /hibot/update.sh https://raw.githubusercontent.com/aliakbarnajmi/hibot/refs/heads/main/update.sh && chmod +x /hibot/update.sh && bash /hibot/update.sh
 ```
 - ### Restart bot
 ```bash
-cd /opt/Hiddify-Telegram-Bot/ && chmod +x restart.sh && ./restart.sh
+cd /hibot/ && chmod +x restart.sh && ./restart.sh
 ```
 - ### Stop bot
 ```bash
@@ -72,19 +72,19 @@ pkill -9 -f hiddifyTelegramBot.py
 ```
 - ### Get bot logs
 ```bash
-cat /opt/Hiddify-Telegram-Bot/Logs/hidyBot.log
+cat /hibot/Logs/hidyBot.log
 ```
 - ### Edit bot configs
 ```bash
-cd /opt/Hiddify-Telegram-Bot/ && python3 config.py && chmod +x restart.sh && ./restart.sh
+cd /hibot/ && python3 config.py && chmod +x restart.sh && ./restart.sh
 ```
 - ### Reinstall bot
 ```bash
-cd /opt/ && rm -rf /opt/Hiddify-Telegram-Bot/ && sudo bash -c "$(curl -Lfo- https://raw.githubusercontent.com/aliakbarnajmi/hibot/refs/heads/master/install.sh)"
+cd /opt/ && rm -rf /hibot/ && sudo bash -c "$(curl -Lfo- https://raw.githubusercontent.com/aliakbarnajmi/hibot/refs/heads/main/install.sh)"
 ```
 - ### Uninstall bot
 ```bash
-cd /opt/Hiddify-Telegram-Bot/ && chmod +x uninstall.sh && ./uninstall.sh
+cd /hibot/ && chmod +x uninstall.sh && ./uninstall.sh
 ```
 
 ## Screenshots
