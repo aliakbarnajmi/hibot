@@ -87,8 +87,8 @@ fi
 
 echo -e "${GREEN}Step 1: Cloning the repository and changing directory...${RESET}"
 
-repository_url="https://github.com/aliakbarnajmi/hibot.git"
-install_dir="/opt/hibot"
+repository_url="https://github.com/aliakbarnajmi/Hiddify-Telegram-Bot.git"
+install_dir="/opt/Hiddify-Telegram-Bot"
 
 branch="main"
 

@@ -4,7 +4,7 @@
 GREEN='\033[0;32m'
 RED='\033[0;31m'
 RESET='\033[0m' # Reset text color
-install_dir="/hibot"
+install_dir="/Hiddify-Telegram-Bot"
 
 # Function to display error messages and exit
 function display_error_and_exit() {
@@ -29,6 +29,6 @@ sleep 5
 echo -e "${GREEN}Starting the bot...${RESET}"
 
 > $install_dir/bot.log
-nohup python3 /hibot/hiddifyTelegramBot.py >> /hibot/bot.log 2>&1 &
+nohup python3 /Hiddify-Telegram-Bot/hiddifyTelegramBot.py >> /Hiddify-Telegram-Bot/bot.log 2>&1 &
 
 echo -e "${GREEN}Bot has been restarted.${RESET}"
