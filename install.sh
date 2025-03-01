@@ -5,7 +5,7 @@ RED='\033[0;31m'
 YELLOW='\033[1;33m'
 RESET='\033[0m' # Reset text color
 
-HIDY_BOT_ID="@HidyBotGroup"
+HIDY_BOT_ID="@vpn27"
 # Function to display error messages and exit
 function display_error_and_exit() {
   echo -e "${RED}Error: $1${RESET}"
@@ -88,7 +88,7 @@ fi
 echo -e "${GREEN}Step 1: Cloning the repository and changing directory...${RESET}"
 
 repository_url="https://github.com/aliakbarnajmi/hibot.git"
-install_dir="/opt/Hiddify-Telegram-Bot"
+install_dir="/hibot"
 
 branch="main"
 
